@@ -1,0 +1,84 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Gudea';
+    margin: 0;
+    background: url(img/vova.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+h1 {
+    padding: 0rem 0 6rem 0rem;
+    font-weight: normal;
+    font-size: 6.2rem;
+    color: #0A4927;
+    text-align: center;
+    line-height: 7.6rem;
+    white-space: nowrap;
+}
+form {
+    margin: 0;
+    width: 64rem;
+    padding: 0rem 8rem 14.4rem 8rem;
+}
+.group {
+  padding-bottom: 8rem;
+}
+.group:last-child {
+    padding-bottom: 1rem;
+}
+label {
+    font-size: 4.2rem;
+    color: #1C442E;
+    line-height: 5rem;
+}
+input {
+    margin-top: 2rem;
+    width: 64rem;
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    border: none;
+    border-bottom: 0.4rem solid #12AB58;
+    outline: none;
+    background: none;
+}
+::placeholder {
+    color: rgba(18, 171, 88, 0.22);
+}
+.radio {
+    margin-top: 4rem;
+    width: auto;
+}
+.radio_text {
+    color: black;
+    font-size: 1.6rem;
+}
+.up {
+    width: 21rem;
+    height: 5.6rem;
+    border-radius: 1.4rem;
+    border: none;
+    color: #0A4927;
+    font-size: 3.2rem;
+    background: linear-gradient(267.3deg, rgba(67, 204, 130, 0.6) 0%, #12AB58 100%);
+}
+.up:hover {
+    brightleness: 
+}
+.in {
+    width: 21rem;
+    height: 5.6rem;
+    border-radius: 1.4rem;
+    border: #12AB58 2px solid;
+    background-color: #fff;
+    font-size: 3.2rem;
+    color: #0A4927;
+    margin-left: 10rem;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 9.8rem;
+}
